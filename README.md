@@ -4,7 +4,7 @@
 
 1. Faça o download de toda a pasta do projeto e execute o arquivo __index.html__ no seu localhost.
 
-   Ou acesse: [link]
+   Ou acesse: <https://dev-joaopaulosantos.github.io/RestaurantBillDivider/>
 
 ## Instruções de Uso
 
