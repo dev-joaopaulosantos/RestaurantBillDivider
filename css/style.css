@@ -8,15 +8,15 @@ body {
   background-color: #202124;
   color: #e8eaed;
 }
-header{
-	width: 100%;
-	padding: 1.5rem 0 1.5rem 1rem;
-	margin-bottom: 1rem;
-	border-bottom: 1px solid #e8eaed;
-	color: #e8eaed;
+header {
+  width: 100%;
+  padding: 1.5rem 0 1.5rem 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #e8eaed;
+  color: #e8eaed;
 }
 h1 {
-  margin: .5rem 0;
+  margin: 0.5rem 0;
   font-size: 2.5rem;
 }
 h2 {
@@ -47,13 +47,13 @@ label {
 #customersInput {
   padding: 0.8rem 0.5rem;
   margin-bottom: 1rem;
-  font-size: .9rem;
+  font-size: 0.9rem;
   background-color: #202124;
   color: #e8eaed;
   border: 1px solid #e8eaed;
   border-radius: 5px;
 }
-.actions{
+.actions {
   display: flex;
   gap: 2rem;
 }
@@ -63,7 +63,7 @@ button {
   color: #202124;
   border: none;
   border-radius: 5px;
-  font-size: .9rem;
+  font-size: 0.9rem;
   cursor: pointer;
 }
 
@@ -82,7 +82,7 @@ li {
   align-items: center;
   background-color: #202124;
   border-radius: 5px;
-  padding: .3rem;
+  padding: 0.3rem;
 }
 
 .result-container {
@@ -97,6 +97,28 @@ li {
 .result-container input[type="checkbox"] {
   margin-right: 10px;
 }
-span{
-	margin-right: .5rem;
+span {
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 400px) {
+  h1{
+    font-size: 2rem;
+  }
+  .container {
+    width: 100%;
+    padding: .5rem;
+  }
+  .product-container {
+    flex-direction: column;
+    gap: 0;
+  }
+  #productSelect,
+  #quantityInput,
+  #customersInput {
+    width: 100%;
+  }
+  li{
+    font-size: 14px;
+  }
 }
