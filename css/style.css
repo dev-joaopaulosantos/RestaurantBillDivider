@@ -10,7 +10,7 @@ body {
 }
 header{
 	width: 100%;
-	padding: 1.5rem 0 1.5rem .5rem;
+	padding: 1.5rem 0 1.5rem 1rem;
 	margin-bottom: 1rem;
 	border-bottom: 1px solid #e8eaed;
 	color: #e8eaed;
@@ -81,6 +81,7 @@ li {
   display: flex;
   align-items: center;
   background-color: #202124;
+  border-radius: 5px;
   padding: .3rem;
 }
 
