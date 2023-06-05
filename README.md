@@ -23,3 +23,6 @@
 7. Após cadastrar todos os consumos desejados, clique no botão __Calcular__. Será exibida uma lista com o nome de cada cliente e o valor total que cada um deve pagar.
 
 8. Caso o cliente opte por pagar a taxa de 10%, basta clicar na caixa de seleção ao lado do nome do cliente, e o valor a pagar será atualizado automaticamente.
+
+#### Código Fonte:
+   Link: <https://github.com/dev-joaopaulosantos/RestaurantBillDivider>
